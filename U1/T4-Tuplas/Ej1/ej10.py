@@ -14,3 +14,5 @@ for i in range(len(tupla)):
         break
 
 print(iguales)
+
+print(all(i == tupla[0] for i in tupla))
