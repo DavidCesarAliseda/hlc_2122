@@ -12,7 +12,8 @@ lista1 = ["M", "nom", "e", "Che", "ajajajaja"]
 lista2 = ["i", "bre", "s", "ma"]
 lista3 = list(zip(lista1, lista2))
 cadena = ""
-
+l=[[1,2,3],[1,2,3]]
+l1=[1,2,[2,3]]
 for i in range(len(lista3)):
     for j in range(len(lista3[i])):
         cadena = cadena+lista3[i][j]
